@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html style="height: 100%; width: 100%;">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lab 1</title>
+    <link rel="stylesheet"
+          type="text/css"
+          href="styles.css"/>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="body" style="height: 90%; width: 90%;">
+
+<div class="centered-div">
+    <p><label for="rasskaz-select">Сколько событий происходит в произведении?</label>
+        <select id="rasskaz-select">
+            <option value="1">одно</option>
+            <option value="2">несколько</option>
+        </select></p>
+    <p>
+        <button onclick="rasskazCheck()"> выбрать</button>
+</div>
+
+<div id="povest-select-div" hidden="true" class="centered-div">
+    <p><label for="povest-select">Сколько сюжетных линий в произведении?</label>
+        <select id="povest-select">
+            <option value="1">одна</option>
+            <option value="2">несколько</option>
+        </select></p>
+    <button onclick="povestCheck()"> выбрать</button>
+</div>
+
+<div id="ZUV-select-div" hidden="true" class="centered-div">
+    <p><label for="ZUV-select">Принадлежит ли рассказ циклу "Записки юного врача"?</label>
+        <select id="ZUV-select">
+            <option value="1">да</option>
+            <option value="2">нет</option>
+        </select></p>
+    <button onclick="zuvCheck()"> выбрать</button>
+</div>
+
+<div id="patient-dead-select-div" hidden="true" class="centered-div">
+    <p><label for="patient-dead-select">Умер ли пациент главного героя?</label>
+        <select id="patient-dead-select">
+            <option value="1">да</option>
+            <option value="2">нет</option>
+        </select></p>
+    <button onclick="patientCheck()"> выбрать</button>
+</div>
+
+<div id="gg-select-div" hidden="true" class="centered-div">
+    <p><label for="gg-select">Является ли главный герой врачом?</label>
+        <select id="gg-select">
+            <option value="1">да</option>
+            <option value="2">нет</option>
+        </select></p>
+    <button onclick="ggCheck()"> выбрать</button>
+</div>
+
+<div id="war-select-div" hidden="true" class="centered-div">
+    <p><label for="war-select">Происходит ли действие во время войны?</label>
+        <select id="war-select">
+            <option value="1">да</option>
+            <option value="2">нет</option>
+        </select></p>
+    <button onclick="warCheck()"> выбрать</button>
+</div>
+
+<div id="year-select-div" hidden="true" class="centered-div">
+    <p><label for="year-select">Произведение написано до 1924 года?</label>
+        <select id="year-select">
+            <option value="1">да</option>
+            <option value="2">нет</option>
+        </select></p>
+    <button onclick="yearCheck()"> выбрать</button>
+</div>
+
+<div id="SS-result" class="centered-div" hidden="true">
+    <img src="ss.jpg" style="height: 50vh; " alt="альтернативный текст">
+</div>
+
+<div id="RYA-result" class="centered-div" hidden="true">
+    <img src="rya.jpg" style="height: 50vh; " alt="альтернативный текст">
+</div>
+
+<div id="DIAV-result" class="centered-div" hidden="true">
+    <img src="d.jpg" style="height: 50vh; " alt="альтернативный текст">
+</div>
+
+<div id="MM-result" class="centered-div" hidden="true">
+    <img src="mm.jpg" style="height: 50vh; " alt="альтернативный текст">
+</div>
+
+<div id="BG-result" class="centered-div" hidden="true">
+    <img src="bg.jpeg" style="height: 50vh; " alt="альтернативный текст">
+</div>
+
+<div id="KORONA-result" class="centered-div" hidden="true">
+    <img src="korona.jpeg" style="height: 50vh; " alt="альтернативный текст">
+</div>
+
+<div id="ZVSYP-result" class="centered-div" hidden="true">
+    <img src="zs.jpeg" style="height: 50vh; " alt="альтернативный текст">
+</div>
+
+<div id="VIUGA-result" class="centered-div" hidden="true">
+    <img src="v.jpg" style="height: 50vh; " alt="альтернативный текст">
+</div>
+
+<div id="YAUBIL-result" class="centered-div" hidden="true">
+    <img src="ya.jpg" style="height: 50vh; " alt="альтернативный текст">
+</div>
+
+<div id="MORFII-result" class="centered-div" hidden="true">
+    <img src="m.jpg" style="height: 50vh; " alt="альтернативный текст">
+</div>
+
+</body>
+<script src="index.js"></script>
+</html>
