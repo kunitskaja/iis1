@@ -2,6 +2,7 @@ let bookType = "";
 let book = "";
 
 function rasskazCheck(event) {
+  document.getElementById("rasskazCheckButton").disabled = true;
   const e = document.getElementById("rasskaz-select");
   const rasskaz = e.value;
   if (rasskaz === "1") {
@@ -14,6 +15,8 @@ function rasskazCheck(event) {
 }
 
 function zuvCheck(event) {
+  document.getElementById("zuvCheckButton").disabled = true;
+
   const e = document.getElementById("ZUV-select");
   const zuv = e.value;
   if (zuv === "1") {
@@ -25,6 +28,8 @@ function zuvCheck(event) {
 }
 
 function povestCheck(event) {
+  document.getElementById("povestCheckButton").disabled = true;
+
   const e = document.getElementById("povest-select");
   const povest = e.value;
   if (povest === "1") {
@@ -38,6 +43,7 @@ function povestCheck(event) {
 }
 
 function ggCheck(event) {
+  document.getElementById("ggCheckButton").disabled = true;
   const e = document.getElementById("gg-select");
   const gg = e.value;
   if (gg === "1") {
@@ -64,6 +70,8 @@ function ggCheck(event) {
 }
 
 function warCheck(event) {
+  document.getElementById("warCheckButton").disabled = true;
+
   const e = document.getElementById("war-select");
   const war = e.value;
   if (war === "1") {
@@ -92,6 +100,8 @@ function warCheck(event) {
 }
 
 function yearCheck(event) {
+  document.getElementById("yearCheckButton").disabled = true;
+
   const e = document.getElementById("year-select");
   const year = e.value;
   if (year === "1") {
@@ -109,6 +119,8 @@ function yearCheck(event) {
 }
 
 function patientCheck(event) {
+  document.getElementById("patientCheckButton").disabled = true;
+
   const e = document.getElementById("patient-dead-select");
   const dead = e.value;
   if (dead === "1") {

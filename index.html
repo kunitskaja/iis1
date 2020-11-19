@@ -19,7 +19,7 @@
             <option value="2">несколько</option>
         </select></p>
     <p>
-        <button onclick="rasskazCheck()"> выбрать</button>
+        <button id="rasskazCheckButton" onclick="rasskazCheck()"> выбрать</button>
 </div>
 
 <div id="povest-select-div" hidden="true" class="centered-div">
@@ -28,7 +28,7 @@
             <option value="1">одна</option>
             <option value="2">несколько</option>
         </select></p>
-    <button onclick="povestCheck()"> выбрать</button>
+    <button id ="povestCheckButton" onclick="povestCheck()"> выбрать</button>
 </div>
 
 <div id="ZUV-select-div" hidden="true" class="centered-div">
@@ -37,7 +37,7 @@
             <option value="1">да</option>
             <option value="2">нет</option>
         </select></p>
-    <button onclick="zuvCheck()"> выбрать</button>
+    <button id="zuvCheckButton" onclick="zuvCheck()"> выбрать</button>
 </div>
 
 <div id="patient-dead-select-div" hidden="true" class="centered-div">
@@ -46,7 +46,7 @@
             <option value="1">да</option>
             <option value="2">нет</option>
         </select></p>
-    <button onclick="patientCheck()"> выбрать</button>
+    <button id="patientCheckButton" onclick="patientCheck()"> выбрать</button>
 </div>
 
 <div id="gg-select-div" hidden="true" class="centered-div">
@@ -55,16 +55,16 @@
             <option value="1">да</option>
             <option value="2">нет</option>
         </select></p>
-    <button onclick="ggCheck()"> выбрать</button>
+    <button id="ggCheckButton" onclick="ggCheck()"> выбрать</button>
 </div>
 
-<div id="war-select-div" hidden="true" class="centered-div">
+<div id="war-select-div" hidden="true" class="centered-div" >
     <p><label for="war-select">Происходит ли действие во время войны?</label>
         <select id="war-select">
             <option value="1">да</option>
             <option value="2">нет</option>
         </select></p>
-    <button onclick="warCheck()"> выбрать</button>
+    <button id="warCheckButton" onclick="warCheck()"> выбрать</button>
 </div>
 
 <div id="year-select-div" hidden="true" class="centered-div">
@@ -73,7 +73,7 @@
             <option value="1">да</option>
             <option value="2">нет</option>
         </select></p>
-    <button onclick="yearCheck()"> выбрать</button>
+    <button id="yearCheckButton" onclick="yearCheck()"> выбрать</button>
 </div>
 
 <div id="SS-result" class="centered-div" hidden="true">
